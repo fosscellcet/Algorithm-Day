@@ -5,21 +5,21 @@ We usually measure the running time of an algorithm by taking the running time o
 ### Order of Complexities : O(n!) >> O(2^n) >> O(n^3) >> O(n^2logn) >> O(n^2) >> O(nlogn) >> O(nlog(logn)) >> O(n) >> O(logn) >> O(1)
 
 ### Average Running time of Complexities
-| InputSize     | n!                | 2^n             | n^2        | nlogn      | n         | logn       |
-|---------------|---------------------|-------------------|--------------|--------------|-------------|--------------|
-| 10            | 3.63ms              | 1\mu s          | 0.1\mu s   | 0.033\mu s | 0.01\mu s | 0.003\mu s |
-| 20            | 77.1 years          | 1ms             | 0.4\mu s   | 0.086\mu s | 0.02\mu s | 0.004\mu s |
-| 30            | 8.4*10^{15} years | 1 sec           | 0.9\mu s   | 0.147\mu s | 0.03\mu s | 0.005\mu s |
-| 40            |                     | 18.3  min       | 1.6\mu s   | 0.213\mu s | 0.04\mu s | 0.005\mu s |
-| 50            |                     | 13 days         | 2.5\mu s   | 0.282\mu s | 0.05\mu s | 0.006\mu s |
-| 100           |                     | 4*10^{13} years | 10\mu s    | 0.644\mu s | 0.1\mu s  | 0.007\mu s |
-| 1,000         |                     |                   | 1ms        | 9.966\mu s | 1\mu s    | 0.010\mu s |
-| 10,000        |                     |                   | 100ms      | 130\mu s   | 10\mu     | 0.013\mu s |
-| 100,000       |                     |                   | 10s        | 1.67ms     | 0.10ms    | 0.017\mu s |
-| 1,000,000     |                     |                   | 16.7min    | 19.93ms    | 1ms       | 0.020\mu s |
-| 10,000,000    |                     |                   | 1.16 days  | 0.23sec    | 0.01sec   | 0.023\mu s |
-| 100,000,000   |                     |                   | 115.7 days | 2.66 sec   | 0.10sec   | 0.027\mu s |
-| 1,000,000,000 |                     |                   | 31.7 years | 29.90 sec  | 1 sec     | 0.030\mu s |
+| InputSize     | n!              | 2^n           | n^2        | nlogn     | n       | logn    |
+|---------------|-----------------|---------------|------------|-----------|---------|---------|
+| 10            | 3.63ms          | 1us           | 0.1 us     | 0.033us   | 0.01us  | 0.003us |
+| 20            | 77.1 years      | 1ms           | 0.4us      | 0.086us   | 0.02us  | 0.004us |
+| 30            | 8.4*10^15 years | 1 sec         | 0.9us      | 0.147us   | 0.03us  | 0.005us |
+| 40            |                 | 18.3  min     | 1.6us      | 0.213us   | 0.04us  | 0.005us |
+| 50            |                 | 13 days       | 2.5us      | 0.282us   | 0.05us  | 0.006us |
+| 100           |                 | 4*10^13 years | 10us       | 0.644us   | 0.1us   | 0.007us |
+| 1,000         |                 |               | 1ms        | 9.966us   | 1us     | 0.010us |
+| 10,000        |                 |               | 100ms      | 130us     | 10u     | 0.013us |
+| 100,000       |                 |               | 10s        | 1.67ms    | 0.10ms  | 0.017us |
+| 1,000,000     |                 |               | 16.7min    | 19.93ms   | 1ms     | 0.020us |
+| 10,000,000    |                 |               | 1.16 days  | 0.23sec   | 0.01sec | 0.023us |
+| 100,000,000   |                 |               | 115.7 days | 2.66 sec  | 0.10sec | 0.027us |
+| 1,000,000,000 |                 |               | 31.7 years | 29.90 sec | 1 sec   | 0.030us |
 
 # Problems
 Generate the prime numbers from 2 to a number n
@@ -41,7 +41,7 @@ The prime numbers from 2 to the number n
 2. **Sieve Of Eratosthenes**
    - Step 1: Initialise a boolean array of size n with the value true
    - Step 2: Take a number i from the sequence 2 to n and check if array[i] is true
-   - Step 3: If array[i] is true then set all positions with index that are multiples of i as false
+   - Step 3: If array[i] is true then set all positions with index that areutiples of i as false
    - Step 4: Repeat this process for all numbers from 2 to n
     ### Complexity : O(n*log(log(n)))
 3. **Dividing by Prime Factors**
