@@ -5,23 +5,9 @@ We usually measure the running time of an algorithm by taking the running time o
 ### Order of Complexities : O(n!) >> O(2^n) >> O(n^3) >> O(n^2logn) >> O(n^2) >> O(nlogn) >> O(nlog(logn)) >> O(n) >> O(logn) >> O(1)
 
 ### Average Running time of Complexities
-| InputSize     | n!              | 2^n           | n^2        | nlogn     | n       | logn    |
-|---------------|-----------------|---------------|------------|-----------|---------|---------|
-| 10            | 3.63ms          | 1us           | 0.1 us     | 0.033us   | 0.01us  | 0.003us |
-| 20            | 77.1 years      | 1ms           | 0.4us      | 0.086us   | 0.02us  | 0.004us |
-| 30            | 8.4*10^15 years | 1 sec         | 0.9us      | 0.147us   | 0.03us  | 0.005us |
-| 40            |                 | 18.3  min     | 1.6us      | 0.213us   | 0.04us  | 0.005us |
-| 50            |                 | 13 days       | 2.5us      | 0.282us   | 0.05us  | 0.006us |
-| 100           |                 | 4*10^13 years | 10us       | 0.644us   | 0.1us   | 0.007us |
-| 1,000         |                 |               | 1ms        | 9.966us   | 1us     | 0.010us |
-| 10,000        |                 |               | 100ms      | 130us     | 10u     | 0.013us |
-| 100,000       |                 |               | 10s        | 1.67ms    | 0.10ms  | 0.017us |
-| 1,000,000     |                 |               | 16.7min    | 19.93ms   | 1ms     | 0.020us |
-| 10,000,000    |                 |               | 1.16 days  | 0.23sec   | 0.01sec | 0.023us |
-| 100,000,000   |                 |               | 115.7 days | 2.66 sec  | 0.10sec | 0.027us |
-| 1,000,000,000 |                 |               | 31.7 years | 29.90 sec | 1 sec   | 0.030us |
+<img src="https://github.com/fosscellcet/Algorithm-Day/blob/master/img/bigo.jpg" width="100%"/>
 
-# Problems
+# Problem statement
 Generate the prime numbers from 2 to a number n
 
 ## Input
