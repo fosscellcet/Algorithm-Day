@@ -5,7 +5,7 @@ We usually measure the running time of an algorithm by taking the running time o
 ### Order of Complexities : O(n!) >> O(2^n) >> O(n^3) >> O(n^2logn) >> O(n^2) >> O(nlogn) >> O(nlog(logn)) >> O(n) >> O(logn) >> O(1)
 
 ### Average Running time of Complexities
-<img src="https://github.com/fosscellcet/Algorithm-Day/blob/master/img/bigo.jpg" width="500"/>
+<img src="../../img/bigo.jpg" width="500"/>
 
 # Problem statement
 Generate the prime numbers from 2 to a number n
