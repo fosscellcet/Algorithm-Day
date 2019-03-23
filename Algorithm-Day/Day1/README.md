@@ -30,6 +30,7 @@ The prime numbers from 2 to the number n
    - Step 3: If array[i] is true then set all positions with index that areutiples of i as false
    - Step 4: Repeat this process for all numbers from 2 to n
     ### Complexity : O(n*log(log(n)))
+    <img src="../../img/sieve.gif" />
 3. **Dividing by Prime Factors**
     - Step 1: Create an array to store prime numbers and add the value 2 to the array
     - Step 2: Then for a number i in the sequence 3 to n check if i is divisible by by any primes in the array
