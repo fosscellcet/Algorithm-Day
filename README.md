@@ -14,4 +14,4 @@
     - [Merge Sort](/Algorithm-Day/Day2/merge.cpp)
     - [Quick Sort](/Algorithm-Day/Day2/quick.cpp)
     - [Insertion Sort](/Algorithm-Day/Day2/insertion.cpp)
-    - [Counting Sort](/Algorithm-Day/Day2/.cpp)
+    - [Counting Sort](/Algorithm-Day/Day2/counting.cpp)
