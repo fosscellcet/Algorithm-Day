@@ -3,35 +3,24 @@
 
 1. **Bubble Sort**
    1. In an unsorted array of 5 elements, start with the first two elements and sort them in ascending     order. (Compare the element to check which one is greater).
-
    2. Compare the second and third element to check which one is greater, and sort them in ascending order.
-   
    3. Compare the third and fourth element to check which one is greater, and sort them in ascending order.
-   
    4. Compare the fourth and fifth element to check which one is greater, and sort them in ascending order.
-   
    5. Repeat steps 1–5 until no more swaps are required.
+   
 2. **Selection Sort**
    
     1. Get a list of unsorted numbers
-     
     2. Set a marker for the unsorted section at the front of the list
-     
     3. Repeat steps 4 6. until one number remains in the unsorted section
-     
     4. Compare all unsorted numbers in order to select the smallest one
-     
     5. Swap this number with the first number in the unsorted section
-    
     6. Advance the marker to the right one position
-    
     7. Stop
 
 3. **Merge Sort**
     1. Divide by finding the number q q qq of the position midway between p p pp and r r rr. Do this step the        same way we found the midpoint in binary search: add p p pp and r r rr, divide by 2, and round down.
-     
     2. Conquer by recursively sorting the subarrays in each of the two subproblems created by the divide step.       That is, recursively sort the subarray array[p..q] and recursively sort the subarray array[q+1..r].
-    
     3. Combine by merging the two sorted subarrays back into the single sorted subarray array[p..r].
     
 4. **Quick Sort**
