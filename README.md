@@ -19,4 +19,4 @@
 - [Standard Template Library](/Algorithm-Day/Day3/README.md)
     - [Vectors](/Algorithm-Day/Day3/vector.cpp)
     - [Array Template](/Algorithm-Day/Day3/template.cpp)
-    - [Greatest Common Divisor](/Algorithm-Day/Day2/gcd.cpp)
+    - [Greatest Common Divisor](/Algorithm-Day/Day3/gcd.cpp)
