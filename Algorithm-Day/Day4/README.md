@@ -9,8 +9,8 @@
   - pop() - Remove the last inserted element.
   - top() - Get the last inserted element.
 
-[Implementation]()
-[STL Implementation]()
+[Implementation](https://github.com/fosscellcet/Algorithm-Day/blob/master/Algorithm-Day/Day4/stack.cpp)  
+[STL Implementation](https://github.com/fosscellcet/Algorithm-Day/blob/master/Algorithm-Day/Day4/stackstl.cpp)
 
 ## Queue
 
@@ -22,8 +22,8 @@
   - front) - Returns the front element(ie, first inserted element) in the queue.
   - back() - Returns the last element(ie, the last inserted element) in the queue.
   
-[Implementation]()
-[STL Implementation]()
+[Implementation](https://github.com/fosscellcet/Algorithm-Day/blob/master/Algorithm-Day/Day4/queue.cpp)  
+[STL Implementation](https://github.com/fosscellcet/Algorithm-Day/blob/master/Algorithm-Day/Day4/queueStl.cpp)
 
 ## Linked List
 
@@ -32,5 +32,5 @@
 - When the first node is inserted, the head pointer now points to the first node.
 - Inserting an element in between is faster than in array, because only a few pointers have to changed.
 
-[Implementation]()
-[STL Implementation]()
+[Implementation](https://github.com/fosscellcet/Algorithm-Day/blob/master/Algorithm-Day/Day4/linkedList.cpp)  
+[STL Implementation](https://github.com/fosscellcet/Algorithm-Day/blob/master/Algorithm-Day/Day4/linkedListStl.cpp)
