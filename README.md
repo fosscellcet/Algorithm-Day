@@ -1,4 +1,4 @@
-# Algorithm Day
+# [Algorithm Day](https://fosscellcet.github.io/Algorithm-Day/)
 ## Contents
 1. ### Day 1
 - Introduction to Big O
