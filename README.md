@@ -1,4 +1,4 @@
-# Algorithm Day
+# [Algorithm Day](https://fosscellcet.github.io/Algorithm-Day/)
 ## Contents
 1. ### Day 1
 - Introduction to Big O
@@ -15,3 +15,8 @@
     - [Quick Sort](/Algorithm-Day/Day2/quick.cpp)
     - [Insertion Sort](/Algorithm-Day/Day2/insertion.cpp)
     - [Counting Sort](/Algorithm-Day/Day2/counting.cpp)
+3. ### Day 3
+- [Standard Template Library](/Algorithm-Day/Day3/README.md)
+    - [Vectors](/Algorithm-Day/Day3/vector.cpp)
+    - [Array Template](/Algorithm-Day/Day3/template.cpp)
+    - [Greatest Common Divisor](/Algorithm-Day/Day3/gcd.cpp)
