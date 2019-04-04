@@ -25,8 +25,9 @@
 
 3. ### Day 3
 - [Stacks, Queues and Linked Lists](/Algorithm-Day/Day4/README.md)
-- [Stack](/Algorithm-Day/Day4/stack.cpp)
-- [STL Stack](Algorithm-Day/Day4/stackstl.cpp)
-- [Queue](/Algorithm-Day/Day4/queue.cpp)
-- [STL Queue](/Algorithm-Day/Day4/queuestl.cpp)
-- [Array Template](/Algorithm-Day/Day4/linkedListStl.cpp)
+    - [Stack](/Algorithm-Day/Day4/stack.cpp)
+    - [STL Stack](Algorithm-Day/Day4/stackstl.cpp)
+    - [Queue](/Algorithm-Day/Day4/queue.cpp)
+    - [STL Queue](/Algorithm-Day/Day4/queueStl.cpp)
+    - [Linked List](/Algorithm-Day/Day4/linkedList.cpp)
+    - [STL List](/Algorithm-Day/Day4/linkedListStl.cpp)
