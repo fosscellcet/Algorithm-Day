@@ -23,7 +23,7 @@
     - [Array Template](/Algorithm-Day/Day3/template.cpp)
     - [Greatest Common Divisor](/Algorithm-Day/Day3/gcd.cpp)
 
-3. ### Day 3
+3. ### Day 4
 - [Stacks, Queues and Linked Lists](/Algorithm-Day/Day4/README.md)
     - [Stack](/Algorithm-Day/Day4/stack.cpp)
     - [STL Stack](Algorithm-Day/Day4/stackstl.cpp)
